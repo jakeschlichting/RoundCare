@@ -1,0 +1,19 @@
+/*header*/
+header {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: $gray;
+  float: left;
+  a.main-logo {
+    display: inline-block;
+    padding: 0px;
+    background-color: #FFF;
+    width: 25%;
+    height: 50px;
+    border: 1px solid $blue;
+    float: left;
+    img {
+      width: 100%;
+    }
+  }
+}

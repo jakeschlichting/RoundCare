@@ -14,13 +14,8 @@
 </head>
 <body>
 <header>
+    <a href="#" class="main-logo">
+        <img src="" alt="">
+    </a>
 
 </header>
-<main>
-
-</main>
-<footer>
-
-</footer>
-</body>
-</html>
