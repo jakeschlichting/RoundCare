@@ -2,18 +2,102 @@
 header {
   width: 100%;
   padding: 10px 15px;
-  background-color: $gray;
+  background-color: $white;
   float: left;
+  position: relative;
+  border-bottom:1px solid $gray;
   a.main-logo {
-    display: inline-block;
+    display: block;
     padding: 0px;
     background-color: #FFF;
-    width: 25%;
+    width: 50%;
     height: 50px;
     border: 1px solid $blue;
     float: left;
+    @media(min-width:768px){
+      width: 25%;
+    }
     img {
       width: 100%;
+    }
+  }
+  button.nav-button{
+    float: right;
+    border:0px;
+    background-color: transparent;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+    &:focus{
+      outline:0;
+    }
+    @media(min-width:768px){
+      display:none;
+    }
+    i.fa{
+      color: #000;
+      font-size:40px;
+    }
+  }
+  nav.main-nav{
+    display:none;
+    position: absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background-color: rgba(0,0,0,.5);
+    @media(min-width:768px){
+    width:75%;
+    float: right;
+    }
+    ul{
+      display: block;
+      width:100%;
+      padding:0;
+      margin:0;
+      @media(min-width:768px) {
+      display: table;
+      width: 100%;
+    }
+      li{
+        display: list-item;
+        width:100%;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        @media(min-width:768px) {
+          display: table-cell;
+          text-align: center;
+          padding: 0;
+          margin: 0;
+          height: 50px;
+        }
+        a{
+          display: inline-block;
+          width:100%;
+          padding:15px;
+          border-top:1px solid #c4c4c3;
+          color: #FFF;
+          @media(min-width:768px) {
+            font-family: sans-serif;
+            text-transform: uppercase;
+            color: #000;
+            letter-spacing: 1px;
+            padding: 5px;
+            line-height: 1;
+            vertical-align: middle;
+          }
+          &:hover{
+            text-decoration: none;
+          }
+
+          &.active{
+            @media(min-width:768px) {
+              border-bottom: 2px solid #000;
+            }
+          }
+        }
+      }
     }
   }
 }
