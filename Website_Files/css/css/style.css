@@ -1,0 +1,91 @@
+/*variables*/
+/*header*/
+header {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #FFF;
+  float: left;
+  position: relative;
+  border-bottom: 1px solid #565656; }
+  header a.main-logo {
+    display: block;
+    padding: 0px;
+    background-color: #FFF;
+    width: 50%;
+    height: 50px;
+    border: 1px solid #20b0e4;
+    float: left; }
+    @media (min-width: 768px) {
+      header a.main-logo {
+        width: 25%; } }
+    header a.main-logo img {
+      width: 100%; }
+  header button.nav-button {
+    float: right;
+    border: 0px;
+    background-color: transparent;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; }
+    header button.nav-button:focus {
+      outline: 0; }
+    @media (min-width: 768px) {
+      header button.nav-button {
+        display: none; } }
+    header button.nav-button i.fa {
+      color: #000;
+      font-size: 40px; }
+  header nav.main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+    @media (min-width: 768px) {
+      header nav.main-nav {
+        display: block;
+        width: 75%;
+        float: right; } }
+    header nav.main-nav ul {
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      @media (min-width: 768px) {
+        header nav.main-nav ul {
+          display: table;
+          width: 100%; } }
+      header nav.main-nav ul li {
+        display: list-item;
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0; }
+        @media (min-width: 768px) {
+          header nav.main-nav ul li {
+            display: table-cell;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            height: 50px; } }
+        header nav.main-nav ul li a {
+          display: inline-block;
+          width: 100%;
+          padding: 15px;
+          border-top: 1px solid #c4c4c3;
+          color: #FFF; }
+          @media (min-width: 768px) {
+            header nav.main-nav ul li a {
+              font-family: sans-serif;
+              text-transform: uppercase;
+              color: #000;
+              letter-spacing: 1px;
+              padding: 5px;
+              line-height: 1;
+              vertical-align: middle; } }
+          header nav.main-nav ul li a:hover {
+            text-decoration: none; }
+          @media (min-width: 768px) {
+            header nav.main-nav ul li a.active {
+              border-bottom: 2px solid #000; } }
