@@ -47,6 +47,7 @@ header {
     width:100%;
     background-color: rgba(0,0,0,.5);
     @media(min-width:768px){
+      display: block;
     width:75%;
     float: right;
     }
