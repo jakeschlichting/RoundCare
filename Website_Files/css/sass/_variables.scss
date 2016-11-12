@@ -9,11 +9,11 @@ $black:#000;
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 /*font mixins*/
-.montserrat-bold{
+@mixin montserrat-bold{
   font-family: 'Montserrat', sans-serif;
   font-weight:700;
 }
-.montserrat-regular{
+@mixin montserrat-regular{
   font-family: 'Montserrat', sans-serif;
   font-weight:400;
 }

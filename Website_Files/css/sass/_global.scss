@@ -1,4 +1,27 @@
 /*global*/
+h1{
+  @include montserrat-bold;
+
+}
+h2{
+  @include montserrat-bold;
+}
+h3{
+  @include montserrat-bold;
+}
+p{
+  @include montserrat-regular;
+}
+a{
+  @include montserrat-regular;
+  &:hover{
+    text-decoration: none;
+  }
+}
+li{
+  @include montserrat-regular;
+}
+
 main{
 }
 section{
