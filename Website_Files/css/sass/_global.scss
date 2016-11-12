@@ -40,3 +40,43 @@ section{
     }
   }
 }
+.background-blue{
+  background-color: $blue;
+  h1, h2,h3, h4, h5, p{
+    color: $white;
+  }
+}
+.rc-btn{
+  display: inline-block;
+  text-align: center;
+  padding:15px 15px;
+  border:1px solid $white;
+  color: $white;
+  background-color: $blue;
+  text-transform: uppercase;
+  line-height:1;
+  &:hover,&:focus &:active{
+    border:1px solid $blue;
+    color: $blue;
+    background-color:$white;
+  }
+}
+.rc-btn-big{
+  display: inline-block;
+  text-align: center;
+  padding:15px 30px;
+  border:1px solid $white;
+  color: $blue;
+  background-color: $white;
+  text-transform: uppercase;
+  line-height:1;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  font-size:24px;
+  &:hover,&:focus &:active{
+    border:1px solid $white;
+    color: $white;
+    background-color:$blue;
+  }
+}

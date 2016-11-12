@@ -5,7 +5,7 @@
 	<!-- start page title -->
 	<section class="row hero-image" style="background-image: url('images/iphone-puppy-productPage.jpg');">
 		<!-- background image -->
-		<h1>RoundCare</h1>
+
 	</section> <!-- end 'page title -->
 
 	<!-- start  the product-->
