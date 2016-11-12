@@ -3,7 +3,7 @@
 <div class="container-fluid">
 
 	<!-- start page title -->
-	<section class="row">
+	<section class="row hero-image" style="background-image: url('images/friends.jpg');">
 		<!-- background image -->
 		<h1>Refer a Friend</h1>
 		<a href="#" class="rc-btn-big">Click Here!</a>

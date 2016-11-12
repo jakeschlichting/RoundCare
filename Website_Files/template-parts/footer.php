@@ -32,10 +32,10 @@
             <li><a href="http://www.pinterest.com"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
         </ul>
     </div>
-    <div class="col-xs-12">
+    <div class="col-xs-12 footer-bottom">
         <p>&copy; RoundCare 2016</p>
         <p>4732 Oakland Ave S. Minneapolis, MN, 55324</p>
-        <p><i class="fa fa-phone" aria-hidden="true"></i> 651-777-2929</p>
+        <p><a href="tel:651-777-2929"><i class="fa fa-phone" aria-hidden="true"></i> 651-777-2929</a></p>
     </div>
 </div> <!--end footer row -->
     </div><!--end footer container -->

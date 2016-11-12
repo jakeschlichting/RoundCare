@@ -162,6 +162,10 @@ footer {
     font-size: 18px;
     display: inline-block;
     margin: 20px 40px 20px 0; }
+  footer .footer-bottom {
+    margin-top: 60px; }
+    footer .footer-bottom a {
+      color: #FFF; }
   footer a.backtop {
     color: #FFF;
     display: block;

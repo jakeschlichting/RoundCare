@@ -3,9 +3,8 @@
 <div class="container-fluid">
 
 	<!-- start page title -->
-	<section class="row">
+	<section class="row hero-image" style="background-image: url('images/dog-costume.jpg');">
 		<!-- background image -->
-r
 		<h1>Support</h1>
 	</section> <!-- end 'page title -->
 

@@ -17,6 +17,12 @@ footer {
     display:inline-block;
     margin:20px 40px 20px 0;
   }
+  .footer-bottom{
+    margin-top:60px;
+    a{
+      color: $white;
+    }
+  }
   a.backtop{
     color: $white;
     display: block;

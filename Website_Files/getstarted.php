@@ -3,7 +3,7 @@
 <div class="container-fluid">
 
 	<!-- start page title -->
-	<section class="row">
+	<section class="row hero-image" style="background-image: url('images/lizard.jpg');">
 		<!-- background image -->
 		<h1>Get Started</h1>
 	</section> <!-- end 'page title -->
