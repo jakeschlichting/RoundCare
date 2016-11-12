@@ -13,7 +13,8 @@
 </head>
 <body>
 <header>
-    <a href="#" class="main-logo">
+    <span id="top"></span>
+    <a href="/" class="main-logo">
         <img src="images/roundcare-logo-white.png" alt="Roundcare Pet Monitioring logo">
     </a>
     <button class="nav-button">
@@ -21,12 +22,12 @@
     </button>
     <nav class="main-nav">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Get Started</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">support</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="/roundcare/">Home</a></li>
+            <li><a href="/roundcare/product">Product</a></li>
+            <li><a href="/roundcare/getstarted">Get Started</a></li>
+            <li><a href="/roundcare/blog">Blog</a></li>
+            <li><a href="/roundcare/support">support</a></li>
+            <li><a href="/roundcare/contact">contact</a></li>
         </ul>
     </nav>
 </header>

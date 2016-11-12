@@ -32,5 +32,11 @@ section{
     -webkit-background-size:cover;
     background-size:cover;
     background-position: center center;
+    text-align: center;
+    padding-top:500px;
+    h1{
+      color: $white;
+      font-size:100px;
+    }
   }
 }

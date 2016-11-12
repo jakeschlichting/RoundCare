@@ -82,8 +82,9 @@ header {
           padding:15px;
           border-top:1px solid #c4c4c3;
           color: #FFF;
+          font-size:16px;
           @media(min-width:768px) {
-            font-family: sans-serif;
+            @include montserrat-regular;
             text-transform: uppercase;
             width:auto;
             border-top:0px;

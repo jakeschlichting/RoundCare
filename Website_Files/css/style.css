@@ -36,7 +36,12 @@ section.hero-image {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  text-align: center;
+  padding-top: 500px; }
+  section.hero-image h1 {
+    color: #FFF;
+    font-size: 100px; }
 
 /*header*/
 header {
@@ -116,10 +121,12 @@ header {
           width: 100%;
           padding: 15px;
           border-top: 1px solid #c4c4c3;
-          color: #FFF; }
+          color: #FFF;
+          font-size: 16px; }
           @media (min-width: 768px) {
             header nav.main-nav ul li a {
-              font-family: sans-serif;
+              font-family: 'Montserrat', sans-serif;
+              font-weight: 400;
               text-transform: uppercase;
               width: auto;
               border-top: 0px;
@@ -147,7 +154,20 @@ footer {
     font-weight: 400;
     font-size: 30px;
     color: #FFF;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-align: center;
+    marin-top: 80px; }
+  footer p {
+    color: #FFF;
+    font-size: 18px;
+    display: inline-block;
+    margin: 20px 40px 20px 0; }
+  footer a.backtop {
+    color: #FFF;
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 30px; }
   footer ul {
     padding: 0;
     margin: 0;
