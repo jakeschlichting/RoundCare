@@ -3,11 +3,10 @@
 <div class="container-fluid"> 
 	
 	<!-- start 'Introducing RC' -->
-	<section>
+	<section class="row hero-image" style="background-image: url('images/lizard.jpg');">
 
 		<!-- background image -->
-		<h1>Introducing</h1>	
-		<img src="images/logo" alt="RoundCare">
+		<h1>Introducing</h1>
 		<a href="#" class="rc-btn-big">Learn More!</a>
 	
 	</section> <!-- end 'Introducing RC' -->

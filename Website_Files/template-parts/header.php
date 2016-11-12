@@ -14,7 +14,7 @@
 <body>
 <header>
     <a href="#" class="main-logo">
-        <img src="" alt="">
+        <img src="images/roundcare-logo-white.png" alt="Roundcare Pet Monitioring logo">
     </a>
     <button class="nav-button">
         <i class="fa fa-bars"></i>
@@ -24,7 +24,9 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">Get Started</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">support</a></li>
+            <li><a href="#">contact</a></li>
         </ul>
     </nav>
 </header>

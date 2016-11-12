@@ -1,23 +1,33 @@
 /*variables*/
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+/*font mixins*/
+.montserrat-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; }
+
+.montserrat-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
+
+/*Sizing variables*/
 /*header*/
 header {
   width: 100%;
   padding: 10px 15px;
-  background-color: #FFF;
+  background-color: transparent;
   float: left;
-  position: relative;
-  border-bottom: 1px solid #565656; }
+  position: absolute;
+  top: 0;
+  left: 0; }
   header a.main-logo {
     display: block;
     padding: 0px;
-    background-color: #FFF;
     width: 50%;
-    height: 50px;
-    border: 1px solid blue;
     float: left; }
     @media (min-width: 768px) {
       header a.main-logo {
-        width: 25%; } }
+        width: 255px; } }
     header a.main-logo img {
       width: 100%; }
   header button.nav-button {
@@ -33,7 +43,7 @@ header {
       header button.nav-button {
         display: none; } }
     header button.nav-button i.fa {
-      color: #000;
+      color: #FFF;
       font-size: 40px; }
   header nav.main-nav {
     display: none;
@@ -45,8 +55,13 @@ header {
     @media (min-width: 768px) {
       header nav.main-nav {
         display: block;
-        width: 75%;
-        float: right; } }
+        position: relative;
+        top: auto;
+        left: auto;
+        width: calc(100% - 255px);
+        float: right;
+        background-color: transparent;
+        margin-top: 15px; } }
     header nav.main-nav ul {
       display: block;
       width: 100%;
@@ -66,9 +81,9 @@ header {
           header nav.main-nav ul li {
             display: table-cell;
             text-align: center;
+            width: auto;
             padding: 0;
-            margin: 0;
-            height: 50px; } }
+            margin: 0; } }
         header nav.main-nav ul li a {
           display: inline-block;
           width: 100%;
@@ -79,15 +94,30 @@ header {
             header nav.main-nav ul li a {
               font-family: sans-serif;
               text-transform: uppercase;
-              color: #000;
+              width: auto;
+              border-top: 0px;
+              color: #FFF;
               letter-spacing: 1px;
               padding: 5px;
               line-height: 1;
-              vertical-align: middle; } }
+              vertical-align: middle;
+              border-bottom: 2px solid transparent; } }
           header nav.main-nav ul li a:hover {
             text-decoration: none; }
+            @media (min-width: 768px) {
+              header nav.main-nav ul li a:hover {
+                border-bottom: 2px solid #FFF; } }
           @media (min-width: 768px) {
             header nav.main-nav ul li a.active {
-              border-bottom: 2px solid #000; } }
+              border-bottom: 2px solid #FFF; } }
+
+/*global*/
+section.hero-image {
+  padding-top: 100px;
+  height: 800px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center; }
 
 /*# sourceMappingURL=style.css.map */
