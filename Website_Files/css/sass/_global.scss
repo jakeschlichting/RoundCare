@@ -1,16 +1,21 @@
 /*global*/
 h1{
   @include montserrat-bold;
-
+  color: $blue;
 }
 h2{
   @include montserrat-bold;
+  font-size:60px;
+  color:$blue;
 }
 h3{
   @include montserrat-bold;
+  color:$blue;
 }
 p{
   @include montserrat-regular;
+  font-size:24px;
+  color:$blue;
 }
 a{
   @include montserrat-regular;

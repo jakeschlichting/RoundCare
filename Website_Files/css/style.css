@@ -6,19 +6,25 @@
 /*global*/
 h1 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #20b0e4; }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 60px;
+  color: #20b0e4; }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700; }
+  font-weight: 700;
+  color: #20b0e4; }
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 24px;
+  color: #20b0e4; }
 
 a {
   font-family: 'Montserrat', sans-serif;
