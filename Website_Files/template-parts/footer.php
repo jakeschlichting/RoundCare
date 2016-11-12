@@ -19,9 +19,7 @@
         </ul>
     </div>
     <div class="col-sm-3 footer-nav">
-        <ul>
-        <li><a href="#">Contact</a></li>
-        </ul>
+
     </div>
     <div class="col-sm-3 footer-nav">
         <a href="#top" class="backtop"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
