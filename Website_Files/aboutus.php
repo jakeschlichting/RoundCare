@@ -3,29 +3,29 @@
 <div class="container-fluid">
 
 	<!-- start page title -->
-	<section>
+	<section class="row">
 		<!-- background image -->
 		<h1>About Us</h1>
 	</section> <!-- end 'page title -->
 
 	<!-- start  mission-->
-	<section>
+	<section class="row">
 		<h2>Mission Statement</h2>
 		<p>text</p>
-		<img src="images/" alt="">
+		<img src="images/" alt="" class="img-responsive">
 	</section>	<!-- end mission-->
 
 	<!-- start staff pics -->
-	<section>
+	<section class="row">
 		<h2>About Us</h2>
 
 		<!-- there may be accompanying text or text on rollover -->
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
+		<img src="" alt="" class="img-responsive">
+		<img src="" alt="" class="img-responsive">
+		<img src="" alt="" class="img-responsive">
+		<img src="" alt="" class="img-responsive">
+		<img src="" alt="" class="img-responsive">
+		<img src="" alt="" class="img-responsive">
 
 	</section>	<!-- end staff pics -->
 
@@ -35,5 +35,3 @@
 </main>
 
 <?php include_once("template-parts/footer.php"); ?>
-
-<!-- general template -->

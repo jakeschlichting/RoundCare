@@ -3,16 +3,16 @@
 <div class="container-fluid">
 
 	<!-- start page title -->
-	<section>
+	<section class="row">
 		<!-- background image -->
 		<h1>Blog</h1>
 	</section> <!-- end 'page title -->
 
 	<!-- start blog articles section-->
-	<section>
+	<section class="row">
 		<div> <!-- start list of articles -->
 			<article>
-				<img src="" alt="">
+				<img src="" alt="" class="img-responsive">
 				<p> <strong>Date</strong></p>
 				<h4>Article Title</h4>
 				<p>article text</p>
@@ -20,7 +20,7 @@
 			</article>
 
 			<article>
-				<img src="" alt="">
+				<img src="" alt="" class="img-responsive">
 				<p> <strong>Date</strong></p>
 				<h4>Article Title</h4>
 				<p>article text</p>
@@ -28,7 +28,7 @@
 			</article>
 
 			<article>
-				<img src="" alt="">
+				<img src="" alt="" class="img-responsive">
 				<p> <strong>Date</strong></p>
 				<h4>Article Title</h4>
 				<p>article text</p>support
@@ -58,5 +58,3 @@
 </main>
 
 <?php include_once("template-parts/footer.php"); ?>
-
-<!-- general template -->

@@ -5,15 +5,15 @@
 	<!-- start page title -->
 	<section class="row">
 		<!-- background image -->
-		<h1>RoundCare</h1>
+		<h1>Refer a Friend</h1>
+		<a href="#" class="rc-btn-big">Click Here!</a>
 	</section> <!-- end 'page title -->
 
-	<!-- start  the product-->
+	<!-- start-->
 	<section class="row">
-		<h2>The Product</h2>
-		<img src="images/" alt="" class="img-responsive">
+		<img src="" alt="" class="img-responsive">
 		<p>text</p>
-	</section>	<!-- end product info-->
+	</section> <!-- end -->
 
 	
 

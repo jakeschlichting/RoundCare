@@ -3,14 +3,14 @@
 <div class="container-fluid">
 
 	<!-- start page title -->
-	<section>
+	<section class="row">
 		<!-- background image -->
 r
 		<h1>Support</h1>
 	</section> <!-- end 'page title -->
 
 	<!-- start FAQ-->
-	<section>
+	<section class="row">
 		<h2>Frequently Asked Questions</h2>
 
 		<ul>
@@ -23,10 +23,10 @@ r
 			<li>list item</li>
 		</ul>
 
-		<img src="" alt="">
+		<img src="" alt="" class="img-responsive">
 	</section>	<!-- end FAQ-->
 		
-	<section> <!-- start how it works-->
+	<section class="row"> <!-- start how it works-->
 		<h2>How it Works</h2>
 		<ol>
 			<li>ol item</li>

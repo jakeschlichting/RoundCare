@@ -12,7 +12,7 @@
 	</section> <!-- end 'Introducing RC' -->
 
 	<!-- start 'available at' -->
-	<section>
+	<section class="row">
 		<h3>Available at these locations April 15, 2017.</h3>
 
 		<a href="#" class="rc-btn">Company 1</a>
@@ -23,14 +23,14 @@
 	<!-- end 'available at' -->
 
 	<!-- start 'video testimonials' -->
-	<section>
+	<section class="row">
 	<h2>Video Testimonials</h2>
 	<!-- video carousel goes here - more research needed-->
 	</section> 
 	<!-- end 'video testimonials' -->
 
 	<!-- start 'reviews' -->
-	<section>
+	<section class="row">
 		<h2>Product Reviews</h2>
 		<!-- photo gallery goes here -->
 	</section>
