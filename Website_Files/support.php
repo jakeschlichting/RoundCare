@@ -5,51 +5,35 @@
 	<!-- start page title -->
 	<section>
 		<!-- background image -->
-		<h1>Blog</h1>
+		<h1>Support</h1>
 	</section> <!-- end 'page title -->
 
-	<!-- start blog articles section-->
+	<!-- start FAQ-->
 	<section>
-		<div> <!-- start list of articles -->
-			<article>
-				<img src="" alt="">
-				<p> <strong>Date</strong></p>
-				<h4>Article Title</h4>
-				<p>article text</p>
-				<a href="" class="rc-btn">Read More</a>
-			</article>
+		<h2>Frequently Asked Questions</h2>
 
-			<article>
-				<img src="" alt="">
-				<p> <strong>Date</strong></p>
-				<h4>Article Title</h4>
-				<p>article text</p>
-				<a href="" class="rc-btn">Read More</a>
-			</article>
+		<ul>
+			<li>list item</li>
+			<li>list item</li>
+			<li>list item</li>
+			<li>list item</li>
+			<li>list item</li>
+			<li>list item</li>
+			<li>list item</li>
+		</ul>
 
-			<article>
-				<img src="" alt="">
-				<p> <strong>Date</strong></p>
-				<h4>Article Title</h4>
-				<p>article text</p>
-				<a href="" class="rc-btn">Read More</a>
-			</article>
-			
-		</div> <!-- end list of articles -->
-
-
-		<aside>
-			<div> background image on desktop. hidden on mobile.</div>
-			<div>
-				list of categories -links? sort? 
-			</div>  <!-- end categories listing -->
-
-			<div>search articles
-			</div>
-		</aside>
-	</section>	<!-- end blog articles-->
-
-
+		<img src="" alt="">
+	</section>	<!-- end FAQ-->
+		
+	<section> <!-- start how it works-->
+		<h2>How it Works</h2>
+		<ol>
+			<li>ol item</li>
+			<li>ol item</li>
+			<li>ol item</li>
+			<li>ol item</li>
+		</ol>
+	</section> <!-- end how it works-->
 
 	
 
@@ -58,5 +42,3 @@
 </main>
 
 <?php include_once("template-parts/footer.php"); ?>
-
-<!-- general template -->
