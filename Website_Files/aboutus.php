@@ -10,6 +10,7 @@
 
 	<!-- start  mission-->
 	<section>
+		<h2>Mission Statement</h2>
 		<p>text</p>
 		<img src="images/" alt="">
 	</section>	<!-- end mission-->
@@ -17,6 +18,8 @@
 	<!-- start staff pics -->
 	<section>
 		<h2>About Us</h2>
+
+		<!-- there may be accompanying text or text on rollover -->
 		<img src="" alt="">
 		<img src="" alt="">
 		<img src="" alt="">
