@@ -97,9 +97,25 @@ li{
   }
 }
 
+.rc-btn-blue {
+    border:1px solid $blue;
+    color: $white;
+    background-color: $blue;
+    &:hover,&:focus &:active{
+    border:1px solid $blue;
+    color: $blue;
+    background-color:$white;
+    }
+  }
+
 .background-blue{
   background-color: $blue;
   h1, h2,h3, h4, h5, p{
     color: $white;
   }
+}
+
+.rc-h2-big {
+  color: $gray;
+  font-size: 5rem;
 }

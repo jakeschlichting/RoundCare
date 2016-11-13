@@ -14,9 +14,9 @@
 			<h2>RoundCare is 21st Century Pet Care</h2>
 			
 			<div>
-				<p class="col-sm-9 col-sm-push-3">The RoundCare pet monitor is a must for your 21st Century family. Whether in the other room, driving in your car running errands, or at work, with RoundCare pet monitor you can keep track of all of your pets activities 24/7. Don’t want to spend a fortune on pet daycare or a pet nanny? Fear separation anxiety? RoundCare is an affordable and smart alternative. </p>
+				<p class="col-sm-8 col-sm-push-4">The RoundCare pet monitor is a must for your 21st Century family. Whether in the other room, driving in your car running errands, or at work, with RoundCare pet monitor you can keep track of all of your pets activities 24/7. Don’t want to spend a fortune on pet daycare or a pet nanny? Fear separation anxiety? RoundCare is an affordable and smart alternative. </p>
 				
-				<img src="images/roundcare-package.jpg" alt="RoundCare in box" class="img-responsive col-sm-3 col-sm-pull-9">
+				<img src="images/roundcare-package.jpg" alt="RoundCare in box" class="img-responsive col-sm-4 col-sm-pull-8">
 			</div>
 		</div>
 	</section>	<!-- end product info-->

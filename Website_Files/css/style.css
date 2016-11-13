@@ -98,10 +98,23 @@ li {
     color: #FFF;
     background-color: #20b0e4; }
 
+.rc-btn-blue {
+  border: 1px solid #20b0e4;
+  color: #FFF;
+  background-color: #20b0e4; }
+  .rc-btn-blue:hover, .rc-btn-blue:focus .rc-btn-blue:active {
+    border: 1px solid #20b0e4;
+    color: #20b0e4;
+    background-color: #FFF; }
+
 .background-blue {
   background-color: #20b0e4; }
   .background-blue h1, .background-blue h2, .background-blue h3, .background-blue h4, .background-blue h5, .background-blue p {
     color: #FFF; }
+
+.rc-h2-big {
+  color: #565656;
+  font-size: 5rem; }
 
 /*header*/
 header {
