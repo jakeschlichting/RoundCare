@@ -14,7 +14,7 @@
 <body>
 <header>
     <span id="top"></span>
-    <a href="/" class="main-logo">
+    <a href="/roundcare" class="main-logo">
         <img src="images/roundcare-logo-white.png" alt="Roundcare Pet Monitioring logo">
     </a>
     <button class="nav-button">
