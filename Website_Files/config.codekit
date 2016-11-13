@@ -181,6 +181,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/blog\/blog1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42057,
+		"inputAbbreviatedPath": "\/images\/blog\/blog1.jpg",
+		"outputAbbreviatedPath": "\/images\/blog\/blog1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog\/blog2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44371,
+		"inputAbbreviatedPath": "\/images\/blog\/blog2.jpg",
+		"outputAbbreviatedPath": "\/images\/blog\/blog2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/blog\/blog3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34248,
+		"inputAbbreviatedPath": "\/images\/blog\/blog3.jpg",
+		"outputAbbreviatedPath": "\/images\/blog\/blog3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/dog-costume.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
