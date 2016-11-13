@@ -5,7 +5,8 @@ h1{
 }
 h2{
   @include montserrat-bold;
-  font-size:60px;
+  //font-size:60px;
+  font-size: 4rem;
   color:$blue;
 }
 h3{
@@ -14,7 +15,8 @@ h3{
 }
 p{
   @include montserrat-regular;
-  font-size:24px;
+  //font-size:24px;
+  font-size: 1.5rem;
   color:$blue;
 }
 a{
