@@ -13,7 +13,8 @@ TOC
   --p
   --a
   --li
-- HELPER CLASSES
+- EXTENSIONS OF BOOTSTRAP CLASSES
+- CUSTOM HELPER CLASSES
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 body {
   font-family: 'Montserrat', sans-serif;
@@ -64,12 +65,23 @@ li {
   font-weight: 400; }
 
 /*/////////////////////////////////////////////////////////
+    extensions of bootstrap classes 
+/////////////////////////////////////////////////////////*/
+.input-group {
+  margin: 5px auto;
+  border-radius: 5px; }
+
+/*/////////////////////////////////////////////////////////
+    extensions of bootstrap classes 
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
     helper classes 
 /////////////////////////////////////////////////////////*/
 .rc-btn {
   display: inline-block;
   text-align: center;
   padding: 15px 15px;
+  margin: 5px;
   border: 1px solid #FFF;
   color: #FFF;
   background-color: #20b0e4;
@@ -84,6 +96,7 @@ li {
   display: inline-block;
   text-align: center;
   padding: 15px 40px;
+  margin: 5px;
   border: 1px solid #FFF;
   color: #20b0e4;
   background-color: #FFF;
@@ -98,10 +111,27 @@ li {
     color: #FFF;
     background-color: #20b0e4; }
 
+.rc-btn-blue {
+  border: 1px solid #20b0e4;
+  color: #FFF;
+  background-color: #20b0e4; }
+  .rc-btn-blue:hover, .rc-btn-blue:focus .rc-btn-blue:active {
+    border: 1px solid #20b0e4;
+    color: #20b0e4;
+    background-color: #FFF; }
+
 .background-blue {
   background-color: #20b0e4; }
   .background-blue h1, .background-blue h2, .background-blue h3, .background-blue h4, .background-blue h5, .background-blue p {
     color: #FFF; }
+
+.rc-h2-big {
+  color: #565656;
+  font-size: 5rem; }
+
+.block {
+  display: block;
+  margin-top: 0; }
 
 /*header*/
 header {
@@ -262,17 +292,11 @@ MAIN CONTENT AREA
 TOC
 - general main styles >applies to all pages
 - product page specific
+- blog page specific
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*/////////////////////////////////////////////////////////
 		end main content area styles 
 /////////////////////////////////////////////////////////*/
-main img {
-  margin: 15px auto;
-  padding: 15px; }
-  @media (min-width: 768px) {
-    main img {
-      margin-top: 0;
-      padding-top: 0; } }
 main section {
   padding: 15px 0 30px; }
   main section.hero-image {
@@ -335,6 +359,20 @@ main section {
 
 /*/////////////////////////////////////////////////////////
 		end product page specific styles
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+		blog page specific styles
+/////////////////////////////////////////////////////////*/
+article {
+  margin-bottom: 15px; }
+  article h4 {
+    color: #000; }
+  article p {
+    color: #000;
+    font-size: 1.25rem; }
+
+/*/////////////////////////////////////////////////////////
+		end blog page specific styles
 /////////////////////////////////////////////////////////*/
 
 /*# sourceMappingURL=style.css.map */

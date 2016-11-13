@@ -4,6 +4,7 @@ MAIN CONTENT AREA
 TOC
 - general main styles >applies to all pages
 - product page specific
+- blog page specific
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 
@@ -13,15 +14,16 @@ TOC
 /////////////////////////////////////////////////////////*/
 
 main{
-	img {
-		margin: 15px auto;
-		padding: 15px;
-		@media(min-width:768px){
-      margin-top: 0;
-      padding-top: 0;
-    }
+	// img {
+	// 	margin: 15px auto;
+	// 	padding: 15px;
+	// 	@media(min-width:768px){
+ //      margin-top: 0;
+ //      padding-top: 0;
+ //      vertical-align: middle;
+ //    }
 
-	}
+	//}
 
 	section{
 	  padding: 15px 0 30px;
@@ -88,4 +90,24 @@ main{
 }
 /*/////////////////////////////////////////////////////////
 		end product page specific styles
+/////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////
+		blog page specific styles
+/////////////////////////////////////////////////////////*/
+
+article {
+	margin-bottom: 15px;
+	h4 {
+		color: $black;
+	}
+
+	p {
+		color: $black;
+		font-size: 1.25rem;
+	}
+}
+
+/*/////////////////////////////////////////////////////////
+		end blog page specific styles
 /////////////////////////////////////////////////////////*/

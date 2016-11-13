@@ -8,7 +8,8 @@ TOC
   --p
   --a
   --li
-- HELPER CLASSES
+- EXTENSIONS OF BOOTSTRAP CLASSES
+- CUSTOM HELPER CLASSES
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 
@@ -60,12 +61,27 @@ li{
 }
 
 /*/////////////////////////////////////////////////////////
+    extensions of bootstrap classes 
+/////////////////////////////////////////////////////////*/
+.input-group {
+  margin: 5px auto;
+  border-radius:5px;
+}
+.form-control {
+}
+
+/*/////////////////////////////////////////////////////////
+    extensions of bootstrap classes 
+/////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////
     helper classes 
 /////////////////////////////////////////////////////////*/
 .rc-btn{
   display: inline-block;
   text-align: center;
   padding:15px 15px;
+  margin: 5px;
   border:1px solid $white;
   color: $white;
   background-color: $blue;
@@ -81,6 +97,7 @@ li{
   display: inline-block;
   text-align: center;
   padding:15px 40px;
+  margin:5px;
   border:1px solid $white;
   color: $blue;
   background-color: $white;
@@ -97,9 +114,30 @@ li{
   }
 }
 
+.rc-btn-blue {
+    border:1px solid $blue;
+    color: $white;
+    background-color: $blue;
+    &:hover,&:focus &:active{
+    border:1px solid $blue;
+    color: $blue;
+    background-color:$white;
+    }
+  }
+
 .background-blue{
   background-color: $blue;
   h1, h2,h3, h4, h5, p{
     color: $white;
   }
+}
+
+.rc-h2-big {
+  color: $gray;
+  font-size: 5rem;
+}
+
+.block {
+  display: block;
+  margin-top: 0;
 }
