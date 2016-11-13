@@ -5,20 +5,25 @@
 	<!-- start page title -->
 	<section class="row hero-image" style="background-image: url('images/iphone-puppy-productPage.jpg');">
 		<!-- background image -->
-		<h1>RoundCare</h1>
+		<h1>Our Product</h1>
 	</section> <!-- end 'page title -->
 
 	<!-- start  the product-->
 	<section class="row background-blue">
-		<div class="col-sm-12">
-			<h2>RoundCare is 21st Century Petcare Care</h2>
-			<p>The RoundCare pet monitor is a must for your 21st Century family. Whether in the other room, driving in your car running errands, or at work, with RoundCare pet monitor you can keep track of all of your pets activities 24/7. Don’t want to spend a fortune on pet daycare or a pet nanny? Fear separation anxiety? RoundCare is an affordable and smart alternative. </p>
+		<div class="col-sm-10 col-sm-offset-1">
+			<h2>RoundCare is 21st Century Pet Care</h2>
+			
+			<div>
+				<p class="col-sm-9 col-sm-push-3">The RoundCare pet monitor is a must for your 21st Century family. Whether in the other room, driving in your car running errands, or at work, with RoundCare pet monitor you can keep track of all of your pets activities 24/7. Don’t want to spend a fortune on pet daycare or a pet nanny? Fear separation anxiety? RoundCare is an affordable and smart alternative. </p>
+				
+				<img src="images/roundcare-package.jpg" alt="RoundCare in box" class="img-responsive col-sm-3 col-sm-pull-9">
+			</div>
 		</div>
 	</section>	<!-- end product info-->
 
 	<!-- start  the product-->
 	<section class="row">
-		<div class="col-sm-12">
+		<div class="col-sm-10 col-sm-offset-1">
 			<h2>Our interactive pet camera has many awesome features.</h2>
 			<div class="icon" id="wireless"></div>
 			<div class="icon" id="waterproof"></div>

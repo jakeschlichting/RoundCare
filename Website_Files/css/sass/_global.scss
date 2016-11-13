@@ -1,18 +1,47 @@
-/*global*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+GLOBAL STYLES
+
+TOC
+- HIGH LEVEL STYLES & RESETS
+- TEXT
+  --H1-H4
+  --p
+  --a
+  --li
+- HELPER CLASSES
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+body {
+  @include montserrat-regular;
+  color:$blue;
+}
+
+/*/////////////////////////////////////////////////////////
+    text styles
+/////////////////////////////////////////////////////////*/
 h1{
   @include montserrat-bold;
   color: $blue;
+  padding-bottom: .25em;
+  text-align: center;
+  text-transform: uppercase;
 }
 h2{
   @include montserrat-bold;
   //font-size:60px;
   font-size: 4rem;
   color:$blue;
+  padding-bottom: .25em;
+  text-align: center;
 }
 h3{
   @include montserrat-bold;
   color:$blue;
+  padding-bottom: .25em;
+  text-align: center;
 }
+
 p{
   @include montserrat-regular;
   //font-size:24px;
@@ -29,6 +58,10 @@ a{
 li{
   @include montserrat-regular;
 }
+
+/*/////////////////////////////////////////////////////////
+    helper classes 
+/////////////////////////////////////////////////////////*/
 .rc-btn{
   display: inline-block;
   text-align: center;
@@ -63,24 +96,7 @@ li{
     background-color:$blue;
   }
 }
-main{
-}
-section{
-  &.hero-image{
-    padding-top:100px;
-    height:800px;
-    background-repeat: no-repeat;
-    -webkit-background-size:cover;
-    background-size:cover;
-    background-position: center center;
-    text-align: center;
-    padding-top:500px;
-    h1{
-      color: $white;
-      font-size:100px;
-    }
-  }
-}
+
 .background-blue{
   background-color: $blue;
   h1, h2,h3, h4, h5, p{

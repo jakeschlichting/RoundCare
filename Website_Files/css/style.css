@@ -3,22 +3,48 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 /*font mixins*/
 /*Sizing variables*/
-/*global*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+GLOBAL STYLES
+
+TOC
+- HIGH LEVEL STYLES & RESETS
+- TEXT
+  --H1-H4
+  --p
+  --a
+  --li
+- HELPER CLASSES
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #20b0e4; }
+
+/*/////////////////////////////////////////////////////////
+    text styles
+/////////////////////////////////////////////////////////*/
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #20b0e4; }
+  color: #20b0e4;
+  padding-bottom: .25em;
+  text-align: center;
+  text-transform: uppercase; }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 4rem;
-  color: #20b0e4; }
+  color: #20b0e4;
+  padding-bottom: .25em;
+  text-align: center; }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #20b0e4; }
+  color: #20b0e4;
+  padding-bottom: .25em;
+  text-align: center; }
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -37,6 +63,9 @@ li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400; }
 
+/*/////////////////////////////////////////////////////////
+    helper classes 
+/////////////////////////////////////////////////////////*/
 .rc-btn {
   display: inline-block;
   text-align: center;
@@ -68,19 +97,6 @@ li {
     border: 1px solid #FFF;
     color: #FFF;
     background-color: #20b0e4; }
-
-section.hero-image {
-  padding-top: 100px;
-  height: 800px;
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  text-align: center;
-  padding-top: 500px; }
-  section.hero-image h1 {
-    color: #FFF;
-    font-size: 100px; }
 
 .background-blue {
   background-color: #20b0e4; }
@@ -240,15 +256,85 @@ footer {
         width: auto;
         text-align: center; }
 
-/*styles for main content area
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+MAIN CONTENT AREA
 
-*/
-/*product page specific*/
+TOC
+- general main styles >applies to all pages
+- product page specific
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*/////////////////////////////////////////////////////////
+		end main content area styles 
+/////////////////////////////////////////////////////////*/
+main img {
+  margin: 15px auto;
+  padding: 15px; }
+  @media (min-width: 768px) {
+    main img {
+      margin-top: 0;
+      padding-top: 0; } }
+main section {
+  padding: 15px 0 30px; }
+  main section.hero-image {
+    padding-top: 100px;
+    height: 800px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-top: 500px; }
+    main section.hero-image h1 {
+      color: #FFF;
+      font-size: 100px; }
+
+/*///////////////////////////////////////////////////////// 
+		end main content area styles 
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+		product page specific styles
+/////////////////////////////////////////////////////////*/
 .icon {
+  box-sizing: border-box;
+  min-height: 80px;
+  display: block;
   width: 20%;
   height: auto;
-  background-color: orange;
-  background-image: url(1.jpg);
+  margin: 15px 0 30px;
+  float: left;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: contain;
   transition: .5s; }
+
+#wireless {
+  background-image: url(../images/icons/wireless-icon.png); }
+  #wireless:hover, #wireless:focus #wireless:active {
+    background-image: url(../images/icons/wireless-hover-icon.png); }
+
+#waterproof {
+  background-image: url(../images/icons/waterproof-icon.png); }
+  #waterproof:hover, #waterproof:focus #waterproof:active {
+    background-image: url(../images/icons/waterproof-hover-icon.png); }
+
+#zoom {
+  background-image: url(../images/icons/zoom-icon.png); }
+  #zoom:hover, #zoom:focus #zoom:active {
+    background-image: url(../images/icons/zoom-hover-icon.png); }
+
+#music {
+  background-image: url(../images/icons/music-icon.png); }
+  #music:hover, #music:focus #music:active {
+    background-image: url(../images/icons/music-hover-icon.png); }
+
+#battery {
+  background-image: url(../images/icons/battery-icon.png); }
+  #battery:hover, #battery:focus #battery:active {
+    background-image: url(../images/icons/battery-hover-icon.png); }
+
+/*/////////////////////////////////////////////////////////
+		end product page specific styles
+/////////////////////////////////////////////////////////*/
 
 /*# sourceMappingURL=style.css.map */

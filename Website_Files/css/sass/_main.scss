@@ -1,12 +1,91 @@
-/*styles for main content area
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+MAIN CONTENT AREA
 
-*/
+TOC
+- general main styles >applies to all pages
+- product page specific
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-/*product page specific*/
+
+
+/*/////////////////////////////////////////////////////////
+		end main content area styles 
+/////////////////////////////////////////////////////////*/
+
+main{
+	img {
+		margin: 15px auto;
+		padding: 15px;
+		@media(min-width:768px){
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+	}
+
+	section{
+	  padding: 15px 0 30px;
+	  &.hero-image{
+	    padding-top:100px;
+	    height:800px;
+	    background-repeat: no-repeat;
+	    -webkit-background-size:cover;
+	    background-size:cover;
+	    background-position: center center;
+	    text-align: center;
+	    padding-top:500px;
+	    h1{
+	      color: $white;
+	      font-size:100px;
+	    }
+	  }
+	}
+
+} 
+/*///////////////////////////////////////////////////////// 
+		end main content area styles 
+/////////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////
+		product page specific styles
+/////////////////////////////////////////////////////////*/
+
 .icon {
+	box-sizing: border-box;
+	min-height: 80px;
+	display: block;
 	width: 20%;
-	height: auto;
-	background-color: orange;
-	background-image:url(1.jpg);
+	height: auto;	
+	margin: 15px 0 30px;
+	float: left;
+	background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center; 
+  background-size: contain;
   transition: .5s;
 }
+
+#wireless {
+	background-image: url(../images/icons/wireless-icon.png);
+  &:hover,&:focus &:active {background-image: url(../images/icons/wireless-hover-icon.png);}
+}
+#waterproof {
+	background-image: url(../images/icons/waterproof-icon.png);
+  &:hover,&:focus &:active {background-image: url(../images/icons/waterproof-hover-icon.png);}
+}
+#zoom {
+	background-image: url(../images/icons/zoom-icon.png);
+  &:hover,&:focus &:active {background-image: url(../images/icons/zoom-hover-icon.png);}
+}
+#music {
+	background-image: url(../images/icons/music-icon.png);
+  &:hover,&:focus &:active {background-image: url(../images/icons/music-hover-icon.png);}
+}
+#battery {
+	background-image: url(../images/icons/battery-icon.png);
+  &:hover,&:focus &:active {background-image: url(../images/icons/battery-hover-icon.png);}
+}
+/*/////////////////////////////////////////////////////////
+		end product page specific styles
+/////////////////////////////////////////////////////////*/

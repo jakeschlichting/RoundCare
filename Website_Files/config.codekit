@@ -192,6 +192,116 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/Images\/icons\/battery-hover-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1284,
+		"inputAbbreviatedPath": "\/Images\/icons\/battery-hover-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/battery-hover-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/icons\/battery-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1085,
+		"inputAbbreviatedPath": "\/Images\/icons\/battery-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/battery-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/icons\/music-hover-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1213,
+		"inputAbbreviatedPath": "\/Images\/icons\/music-hover-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/music-hover-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/icons\/music-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1020,
+		"inputAbbreviatedPath": "\/Images\/icons\/music-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/music-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/icons\/waterproof-hover-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1433,
+		"inputAbbreviatedPath": "\/Images\/icons\/waterproof-hover-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/waterproof-hover-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/icons\/waterproof-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1276,
+		"inputAbbreviatedPath": "\/Images\/icons\/waterproof-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/waterproof-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/icons\/wireless-hover-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1457,
+		"inputAbbreviatedPath": "\/Images\/icons\/wireless-hover-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/wireless-hover-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/icons\/wireless-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1273,
+		"inputAbbreviatedPath": "\/Images\/icons\/wireless-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/wireless-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/icons\/zoom-hover-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1287,
+		"inputAbbreviatedPath": "\/Images\/icons\/zoom-hover-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/zoom-hover-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Images\/icons\/zoom-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1122,
+		"inputAbbreviatedPath": "\/Images\/icons\/zoom-icon.png",
+		"outputAbbreviatedPath": "\/Images\/icons\/zoom-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/Images\/iphone-puppy-productPage.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -224,6 +334,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/Images\/roundcare-package.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/Images\/roundcare-package.jpg",
+		"outputAbbreviatedPath": "\/Images\/roundcare-package.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/Images\/turtles.jpg": {
 		"fileType": 16384,
