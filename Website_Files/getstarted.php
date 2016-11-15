@@ -1,5 +1,5 @@
 <?php include_once("template-parts/header.php"); ?>
-<main>
+<main class="getstarted">
 <div class="container-fluid">
 
 	<!-- start page title -->
@@ -9,7 +9,7 @@
 	</section> <!-- end 'page title -->
 
 	<!-- start  -->
-	<section class="row background-blue">
+	<section class="row background-blue started">
 		<div class="col-sm-10 col-sm-offset-1">
 			<h2>Just bought your very own RoundCare Interactive Pet Camera?</h2>
 			<p class="col-sm-4">Here is a very simple guide to get you through the first steps after purchasing our product. After the initial set-up, feel free to explore our support page that provides FAQ’s, a support forum, and tips.</p>
@@ -19,9 +19,9 @@
 	<!-- end -->
 
 	<!-- start questions -->
-	<section class="row">
+	<section class="row question">
 		<div class="col-sm-10 col-sm-offset-1 text-center">
-			<h2 class="rc-h2-big">Questions?</h2>
+			<h2>Questions?</h2>
 			<h3>Please visit our Support Page</h3>
 			<a href="/roundcare/support" class="rc-btn-big rc-btn-blue">Click Here</a>
 		</div>

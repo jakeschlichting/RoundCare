@@ -26,26 +26,35 @@ main {
   section {
     padding: 15px 0 30px;
     &.hero-image {
-      padding-top: 100px;
-      height: 800px;
+      height: 500px;
       background-repeat: no-repeat;
       -webkit-background-size: cover;
       background-size: cover;
       background-position: center center;
       text-align: center;
-      padding-top: 500px;
+      padding-top: 300px;
+      @media(min-width:768px){
+        padding-top: 100px;
+        height: 800px;
+        padding-top:500px;
+      }
       h1 {
         color: $white;
-        font-size: 100px;
+        font-size: 40px;
         margin: 0;
         padding: 0;
-
+@media(min-width:768px){
+  font-size: 100px;
+}
       }
       h3 {
         color: $blue;
-        font-size: 35px;
+        font-size: 25px;
         text-transform: lowercase;
         margin: 0;
+        @media(min-width: 768px){
+          font-size:35px;
+        }
       }
     }
   }
@@ -65,7 +74,11 @@ home page styles
     }
   }
   h2 {
-    font-size: 35px;
+    font-size:24px;
+    @media(min-width:768px){
+      font-size: 35px;
+    }
+
   }
 
 }
@@ -109,28 +122,42 @@ home page styles
     z-index: 1;
     margin-top: 50px;
     margin-bottom: 50px;
-  }
-  &:after {
-    content: '';
-    border-top: 4px solid white;
-    position: absolute;
-    width: 90%;
-    left: 5%;
-    right: 95%;
-    top: 50%;
-    z-index: 0;
+    &:after {
+      content: '';
+      border-top: 4px solid white;
+      position: absolute;
+      width: 90%;
+      left: 5%;
+      right: 95%;
+      top: 50%;
+      z-index: 0;
+    }
 
+  }
+  h3{
+    font-size:60px;
   }
 }
+.product-image-row{
+  padding:100px 0;
 
+  align-items: center;
+  @media (min-width:768px){
+    display: flex;
+    flex-direction: row;
+  }
+}
 .reviews {
   text-align: center;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
   h2 {
     margin: 100px 0 100px 0;
     display: inline-block;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 50px;
+    @media(min-width:768px){
+      font-size: 70px;
+    }
   }
 }
 
@@ -138,26 +165,39 @@ home page styles
   .item {
     text-align: center;
     img {
-      height: 500px;
+      height: auto;
       width: auto;
       display: inline-block;
+      @media(min-width: 768px){
+        height: 500px;
+      }
     }
   }
   ol {
     position: relative;
     margin-top: 80px;
+    width:100%;
+    margin-left:0;
+    left:0;
+
     li {
-      border: 3px solid $blue;
+      border: 3px solid $white;
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
       border-radius: 0px;
       width: 60px;
       height: 60px;
-      background-color: $white;
-      margin: 0 25px;
-      &.active {
-        background-color: $blue;
+      background-color: $blue;
+      margin: 0 5px;
+      @media(min-width:768px){
         margin: 0 25px;
+      }
+      &.active {
+        background-color: $white;
+        margin: 0 5px;
+        @media(min-width:768px){
+          margin: 0 25px;
+        }
       }
     }
   }
@@ -175,7 +215,10 @@ end home page styles
     padding: 100px 0;
     h2 {
       margin-bottom: 75px;
-      font-size:60px;
+      font-size:40px;
+      @media(min-width:768px){
+        font-size:60px;
+      }
     }
     p {
       font-size: 24px;
@@ -187,12 +230,18 @@ end home page styles
   .features{
     padding:100px 0;
     h2{
-      font-size:60px;
       margin-bottom:50px;
+      font-size:40px;
+      @media(min-width:768px){
+        font-size:60px;
+      }
     }
     p{
-      padding:0 45px;
+      float: left;
       margin-bottom:50px;
+      @media(min-width: 768px){
+        padding:0 45px;
+      }
     }
   }
 
@@ -211,6 +260,7 @@ end home page styles
   background-position: center center;
   background-size: contain;
   transition: .5s;
+  cursor:pointer;
 }
 
 #wireless {
@@ -247,7 +297,23 @@ end home page styles
     background-image: url(../images/icons/battery-hover-icon.png);
   }
 }
-
+.feature-text{
+  display: block;
+  @media(min-width:768px){
+    display:none;
+  }
+}
+h4{
+  &.hover-instruct{
+    text-align: center;
+    float: left;
+    display: none;
+    @media(min-width: 768px){
+      display:block;
+      width:100%;
+    }
+  }
+}
 /*/////////////////////////////////////////////////////////
 		end product page specific styles
 /////////////////////////////////////////////////////////*/
@@ -296,6 +362,7 @@ end home page styles
 /////////////////////////////////////////////////////////*/
 
 article {
+  padding-top:15px;
   margin-bottom: 15px;
   h4 {
     color: $black;
@@ -304,9 +371,78 @@ article {
   p {
     color: $black;
     font-size: 1.25rem;
+    margin-top:5px;
   }
+}
+.blog-body, .blog-aside{
+  margin-top:50px;
+
 }
 
 /*/////////////////////////////////////////////////////////
 		end blog page specific styles
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+		get started page specific styles
+/////////////////////////////////////////////////////////*/
+.getstarted{
+  .started{
+    padding:100px 0;
+    h2{
+      padding: 40px;
+    }
+  }
+  .question{
+    h2{
+      font-size:100px;
+      color: $black;
+    }
+    h3{
+      font-size:48px;
+      margin-bottom:25px;
+    }
+    .rc-btn-big{
+      font-size:43px;
+      border-width:2px;
+      &:hover{
+        border-width:2px;
+      }
+    }
+  }
+}
+
+
+
+/*/////////////////////////////////////////////////////////
+		end get started page specific styles
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+		support page specific styles
+/////////////////////////////////////////////////////////*/
+.support-page{
+  h2{
+    font-size:100px;
+  }
+  h3{
+    font-size:48px;
+  }
+  .support-blocks{
+    padding-top:100px;
+  }
+.background-blue{
+  &.block{
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    padding:80px 40px;
+    text-align: center;
+    h4 {
+      font-size: 43px;
+    }
+  }
+}
+}
+
+/*/////////////////////////////////////////////////////////
+		end get started page specific styles
 /////////////////////////////////////////////////////////*/

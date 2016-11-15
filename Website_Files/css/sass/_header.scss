@@ -9,15 +9,19 @@ header {
   left:0;
   a.main-logo {
     display: block;
-    padding: 0px;
-    width: 50%;
+    padding: 5px 0 0 0;
+    width: 60%;
     float: left;
     @media(min-width:768px){
+      padding:0;
       width: $headlogowidth;
     }
     img {
       width: 100%;
     }
+  }
+  &.dark{
+    background-color: $black;
   }
   button.nav-button{
     float: right;
@@ -43,7 +47,9 @@ header {
     top:100%;
     left:0;
     width:100%;
-    background-color: rgba(0,0,0,.5);
+    height:700px;
+    background-color: $black;
+    z-index:1;
     @media(min-width:768px){
       display: block;
       position: relative;
@@ -77,6 +83,8 @@ header {
           margin: 0;
         }
         a{
+          @include montserrat-regular;
+          text-transform: uppercase;
           display: inline-block;
           width:100%;
           padding:15px;

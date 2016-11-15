@@ -107,6 +107,14 @@ li{
   -moz-border-radius:5px;
   border-radius:5px;
   font-size:24px;
+  &.outline-blue{
+    border:2px solid $blue;
+    &:hover,&:focus &:active{
+      border:2px solid $blue;
+      color: $white;
+      background-color:$blue;
+    }
+  }
   &:hover,&:focus &:active{
     border:1px solid $white;
     color: $white;
@@ -131,7 +139,9 @@ li{
     color: $white;
   }
 }
-
+.background-white{
+  background-color:#ebf2fa;
+}
 .rc-h2-big {
   color: $gray;
   font-size: 5rem;

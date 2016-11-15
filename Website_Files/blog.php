@@ -11,10 +11,11 @@
 	<!-- start blog articles section-->
 	<section class="row">
 		<div class="col-sm-10 col-sm-offset-1">
-			<div class="col-sm-9"> <!-- start list of articles -->
-				<article class="row">	
-					<img src="images/blog/blog1.jpg" alt="kittens playing" class="img-responsive col-xs-6">
-					<div class="col-xs-6">
+			<div class="col-sm-9 blog-body"> <!-- start list of articles -->
+				<article class="row">
+
+					<img src="images/blog/blog1.jpg" alt="kittens playing" class="img-responsive col-sm-6">
+					<div class="col-sm-6">
 						<p> <strong>11/02/16</strong></p>
 						<h4>While Mom is away, kittens play.</h4>
 						<p>Before RoundCare hits the stores, we have placed the monitor in test subject homes to see how it works. Molly sent in this cute screenshot from her computer while she was at work at her desk 30 minutes away.  </p>
@@ -25,8 +26,8 @@
 				</article>
 
 				<article class="row">
-					<img src="images/blog/blog2.jpg" alt="mice hiding in cage" class="img-responsive col-xs-6">
-					<div class="col-xs-6">
+					<img src="images/blog/blog2.jpg" alt="mice hiding in cage" class="img-responsive col-sm-6">
+					<div class="col-sm-6">
 						<p> <strong>10/25/16</strong></p>
 						<h4>Students test out RoundCare at school.</h4>
 						<p>Mrs. Watson’s third grade classroom use RoundCare’s pet monitor to watch their classroom pet mice, Einstein and Barack while school is not in session. All students are able to access a peak of what the two mice are up to by just accessing the url that is connected to RoundCare’s pet monitor.</p>
@@ -37,8 +38,8 @@
 				</article>
 
 				<article class="row">
-					<img src="images/blog/blog3.jpg" alt="sick puppy" class="img-responsive col-xs-6">
-					<div class="col-xs-6">
+					<img src="images/blog/blog3.jpg" alt="sick puppy" class="img-responsive col-sm-6">
+					<div class="col-sm-6">
 						<p> <strong>10/18/16</strong></p>
 						<h4>RoundCare helps monitor sick pets.</h4>
 						<p>The Johanson’s brought their puppy home from the vet after being diagnosed with a serious case of  of parvovirus. They are using RoundCare to monitor the pup while they are away from home.</p>
@@ -52,15 +53,16 @@
 			</div> <!-- end list of articles -->
 
 
-			<aside class="col-sm-3">
-				<div class="col-xs-6 col-sm-12">
+			<aside class="col-sm-3 blog-aside">
+				<div class="row">
+				<div class="col-xs-12">
 					<a href="#" class="rc-btn block">Testimonials</a>
 					<a href="#" class="rc-btn block">Creating RoundCare</a>
 					<a href="#" class="rc-btn block">Behind the Scenes</a>
 					<a href="#" class="rc-btn block">The Team</a>
 				</div>  <!-- end categories listing -->
 
-				<div class="col-xs-6 col-sm-12">
+				<div class="col-xs-12">
 					<div class="input-group input-group-lg">
 			      <input type="text" class="form-control" placeholder="Search...">
 			      <span class="input-group-btn">
@@ -69,6 +71,7 @@
 		        	</button>
 			      </span>
 		    	</div><!-- /input-group -->
+				</div>
 				</div>
 			</aside>
 		</div>

@@ -22,12 +22,12 @@
 		<h2>Our Team</h2>
 		</div>
 				<div class="col-sm-6 col-md-4 bio-card">
-					<img src="images/schlichting-portrait-bio.jpg" alt="Jake Schlichtling">
+					<img src="images/quintanilla-bio.jpg" alt="Jake Schlichtling">
 					<h3>Developer</h3>
 					<h4>Jacqueline Quintanilla</h4>
 				</div>
 		<div class="col-sm-6 col-md-4 bio-card">
-			<img src="images/schlichting-portrait-bio.jpg" alt="Jake Schlichtling">
+			<img src="images/ac_headshot.jpg" alt="Jake Schlichtling">
 			<h3>Developer</h3>
 			<h4>Alex Carlson</h4>
 		</div>
