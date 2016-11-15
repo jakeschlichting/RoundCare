@@ -22,17 +22,17 @@
 		<h2>Our Team</h2>
 		</div>
 				<div class="col-sm-6 col-md-4 bio-card">
-					<img src="images/quintanilla-bio.jpg" alt="Jake Schlichtling">
+					<img src="images/quintanilla-bio.jpg" alt="Jacqui">
 					<h3>Developer</h3>
 					<h4>Jacqueline Quintanilla</h4>
 				</div>
 		<div class="col-sm-6 col-md-4 bio-card">
-			<img src="images/ac_headshot.jpg" alt="Jake Schlichtling">
+			<img src="images/ac_headshot.jpg" alt="Alex">
 			<h3>Developer</h3>
 			<h4>Alex Carlson</h4>
 		</div>
 		<div class="col-sm-6 col-md-4 bio-card">
-			<img src="images/sarah_portrait_larger.jpg" alt="Jake Schlichtling">
+			<img src="images/sarah_portrait_larger.jpg" alt="Sarah">
 			<h3>Designer</h3>
 			<h4>Sarah Thomson</h4>
 		</div>
@@ -42,12 +42,12 @@
 			<h4>Jake Schlichting</h4>
 		</div>
 		<div class="col-sm-6 col-md-4 bio-card">
-			<img src="images/schlichting-portrait-bio.jpg" alt="Jake Schlichtling">
+			<img src="images/tai-bio.jpg" alt="Tai">
 			<h3>UX & UI</h3>
 			<h4>Tai Vo</h4>
 		</div>
 		<div class="col-sm-6 col-md-4 bio-card">
-			<img src="images/schlichting-portrait-bio.jpg" alt="Jake Schlichtling">
+			<img src="images/nickol_portrait.png" alt="Nickol">
 			<h3>UX & UI</h3>
 			<h4>Nickol Burrell</h4>
 		</div>
