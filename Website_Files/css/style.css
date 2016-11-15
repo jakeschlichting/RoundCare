@@ -56,9 +56,11 @@ p {
 a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  transition: all .5s ease; }
+  transition: all .5s ease;
+  color: #116c8d; }
   a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #565656; }
 
 li {
   font-family: 'Montserrat', sans-serif;
@@ -135,12 +137,14 @@ li {
   background-color: #ebf2fa; }
 
 .rc-h2-big {
-  color: #565656;
   font-size: 5rem; }
 
 .block {
   display: block;
   margin-top: 0; }
+
+.black {
+  color: #000; }
 
 /*header*/
 header {
@@ -305,14 +309,16 @@ footer {
         padding: 0 15px;
         text-align: center; }
 
-/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 MAIN CONTENT AREA
 
 TOC
 - general main styles >applies to all pages
+- home page styles
 - product page specific
+- about page styles
 - blog page specific
- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /*/////////////////////////////////////////////////////////
 		end main content area styles 
 /////////////////////////////////////////////////////////*/
@@ -626,23 +632,20 @@ article {
 /*/////////////////////////////////////////////////////////
 		support page specific styles
 /////////////////////////////////////////////////////////*/
-.support-page h2 {
-  font-size: 100px; }
-.support-page h3 {
-  font-size: 48px; }
 .support-page .support-blocks {
-  padding-top: 100px; }
+  padding-top: 60px; }
 .support-page .background-blue.block {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  padding: 80px 40px;
+  padding: 60px 30px;
+  margin: 15px 0;
   text-align: center; }
   .support-page .background-blue.block h4 {
-    font-size: 43px; }
+    font-size: 3rem; }
 
-/*/////////////////////////////////////////////////////////
-		end get started page specific styles
-/////////////////////////////////////////////////////////*/
+/* /////////////////////////////////////////////////////////
+		end support page specific styles
+///////////////////////////////////////////////////////// */
 
 /*# sourceMappingURL=style.css.map */

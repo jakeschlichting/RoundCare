@@ -1,11 +1,13 @@
-/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 MAIN CONTENT AREA
 
 TOC
 - general main styles >applies to all pages
+- home page styles
 - product page specific
+- about page styles
 - blog page specific
- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /*/////////////////////////////////////////////////////////
 		end main content area styles 
@@ -33,9 +35,9 @@ main {
         font-size: 40px;
         margin: 0;
         padding: 0;
-@media(min-width:768px){
-  font-size: 100px;
-}
+        @media(min-width:768px){
+          font-size: 100px;
+        }
       }
       h3 {
         color: $blue;
@@ -75,7 +77,6 @@ home page styles
     margin: -10px auto;
     margin-bottom: -30px;
   }
-
 }
 
 .brand-group {
@@ -415,29 +416,30 @@ article {
 		support page specific styles
 /////////////////////////////////////////////////////////*/
 .support-page{
-  h2{
-    font-size:100px;
-  }
-  h3{
-    font-size:48px;
-  }
+  // h2{
+  //   font-size:100px;
+  // }
+  // h3{
+  //   font-size:48px;
+  // }
   .support-blocks{
-    padding-top:100px;
+    padding-top:60px;
   }
 .background-blue{
   &.block{
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
-    padding:80px 40px;
+    padding:60px 30px;
+    margin: 15px 0;
     text-align: center;
     h4 {
-      font-size: 43px;
+      font-size: 3rem;
     }
   }
 }
 }
 
-/*/////////////////////////////////////////////////////////
-		end get started page specific styles
-/////////////////////////////////////////////////////////*/
+/* /////////////////////////////////////////////////////////
+		end support page specific styles
+///////////////////////////////////////////////////////// */

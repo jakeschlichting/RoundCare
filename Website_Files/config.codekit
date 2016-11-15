@@ -346,6 +346,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/hotline-girl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2203,
+		"inputAbbreviatedPath": "\/images\/hotline-girl.png",
+		"outputAbbreviatedPath": "\/images\/hotline-girl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hotline-guy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1978,
+		"inputAbbreviatedPath": "\/images\/hotline-guy.png",
+		"outputAbbreviatedPath": "\/images\/hotline-guy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/icons\/battery-hover-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,

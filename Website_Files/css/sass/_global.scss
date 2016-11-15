@@ -52,8 +52,10 @@ p{
 a{
   @include montserrat-regular;
   transition:all .5s ease;
+  color: darken($blue, 20);
   &:hover{
     text-decoration: none;
+    color: $gray;
   }
 }
 li{
@@ -143,11 +145,14 @@ li{
   background-color:#ebf2fa;
 }
 .rc-h2-big {
-  color: $gray;
   font-size: 5rem;
 }
 
 .block {
   display: block;
   margin-top: 0;
+}
+
+.black {
+  color: $black;
 }
