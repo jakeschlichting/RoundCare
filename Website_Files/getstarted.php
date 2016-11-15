@@ -23,7 +23,7 @@
 		<div class="col-sm-10 col-sm-offset-1 text-center">
 			<h2 class="rc-h2-big">Questions?</h2>
 			<h3>Please visit our Support Page</h3>
-			<a href="support.php" class="rc-btn-big rc-btn-blue">Click Here</a>
+			<a href="/roundcare/support" class="rc-btn-big rc-btn-blue">Click Here</a>
 		</div>
 	</section>
 

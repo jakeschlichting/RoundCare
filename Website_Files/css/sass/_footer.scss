@@ -26,6 +26,7 @@ footer {
   a.backtop{
     color: $white;
     display: block;
+    padding-right:40px;
     width:100%;
     text-align: right;
     font-size:30px;
@@ -52,10 +53,11 @@ footer {
     &.social {
       text-align: center;
       width:100%;
-      display: table;
+      display: block;
       li {
-        display: table-cell;
+        display: inline-block;
         width:auto;
+        padding:0 15px;
         text-align: center;
         a {
 
