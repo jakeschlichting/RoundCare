@@ -12,7 +12,7 @@
 
     <title>RoundCare | Stream Your Pet While Away</title>
 </head>
-<body>
+<body onload="init();">
 <header>
     <span id="top"></span>
     <a href="/roundcare" class="main-logo">

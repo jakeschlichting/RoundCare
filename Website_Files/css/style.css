@@ -361,6 +361,9 @@ home page styles
   @media (min-width: 768px) {
     .home h2 {
       font-size: 35px; } }
+.home #animation_container {
+  margin: -10px auto;
+  margin-bottom: -30px; }
 
 .brand-group {
   display: block;
