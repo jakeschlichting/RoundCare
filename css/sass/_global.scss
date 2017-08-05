@@ -1,0 +1,158 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+GLOBAL STYLES
+
+TOC
+- HIGH LEVEL STYLES & RESETS
+- TEXT
+  --H1-H4
+  --p
+  --a
+  --li
+- EXTENSIONS OF BOOTSTRAP CLASSES
+- CUSTOM HELPER CLASSES
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+body {
+  @include montserrat-regular;
+  color:$blue;
+}
+
+/*/////////////////////////////////////////////////////////
+    text styles
+/////////////////////////////////////////////////////////*/
+h1{
+  @include montserrat-bold;
+  color: $blue;
+  padding-bottom: .25em;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2{
+  @include montserrat-bold;
+  //font-size:60px;
+  font-size: 4rem;
+  color:$blue;
+  padding-bottom: .25em;
+  text-align: center;
+}
+h3{
+  @include montserrat-bold;
+  color:$blue;
+  padding-bottom: .25em;
+  text-align: center;
+}
+
+p{
+  @include montserrat-regular;
+  //font-size:24px;
+  font-size: 2rem;
+  color:$blue;
+}
+a{
+  @include montserrat-regular;
+  transition:all .5s ease;
+  color: darken($blue, 20);
+  &:hover{
+    text-decoration: none;
+    color: $gray;
+  }
+}
+li{
+  @include montserrat-regular;
+}
+
+/*/////////////////////////////////////////////////////////
+    extensions of bootstrap classes 
+/////////////////////////////////////////////////////////*/
+.input-group {
+  margin: 5px auto;
+  border-radius:5px;
+}
+.form-control {
+}
+
+/*/////////////////////////////////////////////////////////
+    extensions of bootstrap classes 
+/////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////
+    helper classes 
+/////////////////////////////////////////////////////////*/
+.rc-btn{
+  display: inline-block;
+  text-align: center;
+  padding:15px 15px;
+  margin: 5px;
+  border:1px solid $white;
+  color: $white;
+  background-color: $blue;
+  text-transform: uppercase;
+  line-height:1;
+  &:hover,&:focus &:active{
+    border:1px solid $blue;
+    color: $blue;
+    background-color:$white;
+  }
+}
+.rc-btn-big{
+  display: inline-block;
+  text-align: center;
+  padding:15px 40px;
+  margin:5px;
+  border:1px solid $white;
+  color: $blue;
+  background-color: $white;
+  text-transform: uppercase;
+  line-height:1;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  font-size:24px;
+  &.outline-blue{
+    border:2px solid $blue;
+    &:hover,&:focus &:active{
+      border:2px solid $blue;
+      color: $white;
+      background-color:$blue;
+    }
+  }
+  &:hover,&:focus &:active{
+    border:1px solid $white;
+    color: $white;
+    background-color:$blue;
+  }
+}
+
+.rc-btn-blue {
+    border:1px solid $blue;
+    color: $white;
+    background-color: $blue;
+    &:hover,&:focus &:active{
+    border:1px solid $blue;
+    color: $blue;
+    background-color:$white;
+    }
+  }
+
+.background-blue{
+  background-color: $blue;
+  h1, h2,h3, h4, h5, p{
+    color: $white;
+  }
+}
+.background-white{
+  background-color:#ebf2fa;
+}
+.rc-h2-big {
+  font-size: 5rem;
+}
+
+.block {
+  display: block;
+  margin-top: 0;
+}
+
+.black {
+  color: $black;
+}

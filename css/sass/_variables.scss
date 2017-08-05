@@ -1,0 +1,22 @@
+/*variables*/
+
+$primarycolor: #000;
+$blue:#20b0e4;
+$gray:#565656;
+$white:#FFF;
+$black:#000;
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*font mixins*/
+@mixin montserrat-bold{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+}
+@mixin montserrat-regular{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+}
+
+/*Sizing variables*/
+$headlogowidth:255px;
